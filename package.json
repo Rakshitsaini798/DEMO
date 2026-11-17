@@ -1,0 +1,19 @@
+{
+  "name": "ttl-cache-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small Node.js REST API that uses @rakshit798/ttl-cache for caching, request deduping and rate limiting.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@rakshit798/ttl-cache": "^0.1.1"
+  }
+}
